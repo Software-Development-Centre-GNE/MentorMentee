@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{title} - {group} - {student_profile} - {mentor_profile}",
+ "creation": "2021-11-13 13:58:52.505995",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "student_profile",
+  "mentor_profile",
+  "group"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Title",
+   "options": "Student\nMentor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student_profile",
+   "fieldtype": "Link",
+   "label": "Student Profile",
+   "options": "Students"
+  },
+  {
+   "fieldname": "mentor_profile",
+   "fieldtype": "Link",
+   "label": "Mentor Profile",
+   "options": "Faculty"
+  },
+  {
+   "fieldname": "group",
+   "fieldtype": "Select",
+   "label": "Group ",
+   "options": "A1\nA2\nB1\nB2\nC1\nC2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-13 14:07:14.417888",
+ "modified_by": "Administrator",
+ "module": "Mentor Mentee",
+ "name": "CSE",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "CSEAcademicIncharge",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,12 +1,12 @@
 from . import __version__ as app_version
 
 app_name = "mentormentee"
-app_title = "Mentormentee"
-app_publisher = "SDC"
-app_description = "This is a student and faculty management system."
+app_title = "Mentor Mentee"
+app_publisher = "Harsh"
+app_description = "App for SDC"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "technogeek13559@gmail.com"
+app_email = "harshvse@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>

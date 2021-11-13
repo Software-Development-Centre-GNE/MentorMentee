@@ -9,9 +9,9 @@ from mentormentee import __version__ as version
 setup(
 	name="mentormentee",
 	version=version,
-	description="This is a student and faculty management system.",
-	author="SDC",
-	author_email="technogeek13559@gmail.com",
+	description="App for SDC",
+	author="Harsh",
+	author_email="harshvse@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
